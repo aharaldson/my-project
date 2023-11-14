@@ -57,7 +57,7 @@ const playfieldEl = document.getElementById('playfield')
 betAddFiveEl.addEventListener('click', betAddFive)
 rollButtonEl.addEventListener('click', rollDice)
 
-
+/*---- FUNCTIONS ----*/
 function newGame() {
    console.log('new game');
    shooterData.point = 0;
@@ -108,9 +108,6 @@ function rollDice() {
     console.log('dice rolled');
    playCraps();
 };
-
-// GAME STATES (functions?) // 
-// i feel quite good about this part, now I need to make it work with everything else
 
 function playCraps() {
    if (shooterData.point < 1) {
