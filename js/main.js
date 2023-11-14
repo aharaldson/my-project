@@ -13,10 +13,10 @@
  let rollTotal = null;
  let currentPoint = null;
  let shooterData = {
-    point = null;
-    bet = null;
-    gameState = null;
-    bank = 100;
+    point = null,
+    bet = null,
+    gameState = null,
+    bank = 100,
  }
 
  let newGame = fuction () {
@@ -82,9 +82,9 @@ const sections = document.getElementById('playfield').addEventListener('click', 
 // RULES //
  const rules = {
    firstRoll: {
-        numsToWin: [7, 11]
-        numsToLose: [2, 3, 12]
-        numsPass: [4, 5, 6, 8, 9, 10]
+        numsToWin: [7, 11],
+        numsToLose: [2, 3, 12],
+        numsPass: [4, 5, 6, 8, 9, 10],
         setPoint: {
      
 
