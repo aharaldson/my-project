@@ -42,7 +42,7 @@
 let newPoint
 
 // GAME STATES (functions?) // 
-
+// i feel quite good about this part, now I need to make it work with everything else
 
 const playCraps = function () {
     if (shooterData.point < 1) {
@@ -103,3 +103,4 @@ const sections = document.getElementById('playfield').addEventListener('click', 
  passLine: {
   setPoint: []
  }
+}
