@@ -90,8 +90,8 @@ function newPoint() {
     return true;
 };
 
-function betAddFive() {
-   let betValue = event.target.value;
+function betAddFive(evt) {
+   if()
    betValue = Number(betValue);
    shooterData.bet = shooterData.bet + betValue;
    shooterData.bank = shooterData.bank - betValue;
@@ -146,6 +146,3 @@ function playCraps() {
    return true;
 
 };
-
-newGame();
-playCraps();
