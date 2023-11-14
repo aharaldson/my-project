@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div>
-        <button type = "submit">
+        <button type = "submit" id="rollbutton">
             <p>Roll the dice!</p>
             <img src="https://i.imgur.com/DIFnGhU.png " />
          </button>
+    </div>
+    <div id="betbutton">
+        <div>Place a bet!</div>
+        <button id="betaddfive" value="5">+$5</button>
+    </div>
+    <div id="displaycurrentbet">
+        <h2>Come out bet</h2>
+        <button type="button" id="currentbet">$0</button>
+    </div>
+    <div id="displaycomeoutnumber">
+        <h2>The point</h2>
+        <button type="button" id="comeoutnumber">7</button>
+    </div>
+    <div id="displayroll">
+      <h2>Roll</h2>
+      <button type="button" id="roll">Roll</button>
+    </div>
+    <div id="winlose">
+        <h3></h3>
     </div>
     <div id="playfield"></div>
         <div id="passline"></div>
@@ -21,7 +40,7 @@
         <div id="comebar"></div>
         <div id="dontcome"></div>
         <div>
-        // points boxes //    
+          <!-- points boxes -->
             <div id="four"></div>
             <div id="five"></div>
             <div id="six"></div>
