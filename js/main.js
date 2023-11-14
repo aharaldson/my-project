@@ -58,7 +58,7 @@ betAddFiveEl.addEventListener('click', betAddFive)
 rollButtonEl.addEventListener('click', rollDice)
 
 
-function newGame()) {
+function newGame() {
    console.log('new game');
    shooterData.point = 0;
    shooterData.bet = 0;
