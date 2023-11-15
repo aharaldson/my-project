@@ -91,7 +91,7 @@ function newPoint() {
 };
 
 function betAddFive(evt) {
-   if()
+   let betValue = evt.target.value;
    betValue = Number(betValue);
    shooterData.bet = shooterData.bet + betValue;
    shooterData.bank = shooterData.bank - betValue;
@@ -100,7 +100,7 @@ function betAddFive(evt) {
    return true;
 };
 
-function rollDice() {
+function rollDice(evt) {
     const dice1 = Math.floor((Math.random() * 6) + 1);
     const dice2 = Math.floor((Math.random() * 6) + 1);
     rollTotal = (dice1 + dice2);
