@@ -1,4 +1,88 @@
 * {
 margin: 10;
 padding: 10;
+text-align: center;
 }
+
+#playfield {
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(8, 4fr);
+    grid-template-rows: 8;
+    gap: 8px;
+}
+
+#playfield > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#passline-left {
+    grid-row: auto / span 6;
+    background-color: #ffad9f;
+}
+
+#dontcome {
+    grid-row: auto / span 3;
+    background-color: #9697ec;
+}
+
+#four {
+    grid-row: auto / span 2;
+    background-color: #e4ffb0;
+}
+
+#five {
+    grid-row: auto / span 2;
+    background-color: #ffc188;
+}
+
+#six {
+    grid-row: auto / span 2;
+    background-color: #6065b5;
+}
+
+#eight {
+    grid-row: auto / span 2;
+    background-color: #9cfad7;
+}
+
+#nine {
+    grid-row: auto / span 2;
+    background-color: #ebdc80;
+}
+
+#ten {
+    grid-row: auto / span 2;
+    background-color: #293780;
+}
+
+#comebar {
+    grid-column: auto / span 6;
+    background-color: #82e9f8;
+}
+
+#field {
+    grid-row: auto / span 2;
+    grid-column: auto / span 7;
+    background-color: #bdf798;
+}
+
+#dontpass {
+    grid-column: auto / span 7;
+    background-color: #fff59c;
+}
+
+#passline-bottom {
+    grid-row: auto / span 2;
+    grid-column: auto / span 8;
+    background-color: #ffad9f;
+}
+
+#interact {
+    display: grid;
+    grid-template-columns: 4, 1fr;
+    grid-template-rows: 1;
+}
+

@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script defer src="js/main.js"></script>
-</head>
-<body>
-    <div>
-        <button type = "submit" class="dice-size" id="rollbutton">
-            <p>Roll the dice!</p>
-            <img src="https://i.imgur.com/DIFnGhU.png " style="width:160px; height:80px"/>
-         </button>
-    </div>
-    <div id="betbutton">
-        <div>Place a bet!</div>
-        <button id="betaddfive" value="5">+$5</button>
-    </div>
-    <div id="displaycurrentbet">
-        <h2>Come out bet</h2>
-        <button type="button" id="currentbet">$0</button>
-    </div>
-    <div id="displaycomeoutnumber">
-        <h2>The point</h2>
-        <button type="button" id="comeoutnumber">7</button>
-    </div>
-    <div id="displayroll">
-      <h2>Roll</h2>
-      <button type="button" id="roll">Roll</button>
-    </div>
-    <div id="winlose">
-        <h3></h3>
-    </div>
-    <div id="playfield"></div>
-        <div id="passline"></div>
-        <div id="dontpass"></div>
-        <div id="field"></div>
-        <div id="comebar"></div>
-        <div id="dontcome"></div>
-        <div>
-          <!-- points boxes -->
-            <div id="four"></div>
-            <div id="five"></div>
-            <div id="six"></div>
-            <div id="eight"></div>
-            <div id="nine"></div>
-            <div id="ten"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="wholegame">
+            <div id="playfield">
+                <div id="passline-left">pass<br>line</div>
+                <div id="dontcome">don't come</div>
+                <div id="four">4</div>
+                <div id="five">5</div>
+                <div id="six">six</div>
+                <div id="eight">8</div>
+                <div id="nine">nine</div>
+                <div id="ten">10</div>
+                <div id="comebar">come</div>
+                <div id="field">2 3 4 9 10 11 12<br>field</div>
+                <div id="dontpass">don't pass</div>
+                <div id="passline-bottom">pass line</div>
+            </div>
+            <div id="interact">
+                <div id="displayrollbutton">
+                    <button type = "submit" class="dice-size" id="rollbutton">
+                        <p>Roll the dice!</p>
+                        <img src="IMGs/2dice.png" style="width:160px; height:80px"/>
+                    </button>
+                </div>
+                <div id="betbutton">
+                    <div>Place a bet!</div>
+                    <button id="betaddfive" value="5">+$5</button>
+                </div>
+                <div id="displaycurrentbet">
+                    <h2>Come out bet</h2>
+                    <button type="button" id="currentbet">$0</button>
+                </div>
+                <div id="displaycomeoutnumber">
+                    <h2>The point</h2>
+                    <button type="button" id="comeoutnumber">7</button>
+                </div>
+                <div id="displayroll">
+                    <h2>Roll</h2>
+                    <button type="button" id="roll">Roll</button>
+                </div>
+                <div id="winlose">
+                    <h3></h3>
+                </div>
+            </div>
         </div>
-
 </body>
 </html>
