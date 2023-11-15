@@ -2,3 +2,17 @@
 margin: 10;
 padding: 10;
 }
+
+/* #rollbutton {
+    max-width: 160px;
+    width: fit-content;
+    font-size: 18px;
+    float: right;
+} */
+body {
+    background-image: url("https://i.imgur.com/QDfMBUV.png");
+    /* width: auto; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-color: #000000; */
+}

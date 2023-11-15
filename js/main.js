@@ -34,6 +34,14 @@
 // IF POINT IS ROLLED BEFORE 7, PASS LINE BETS WIN
 // IF 7 ROLLED BEFORE POINT, DON'T PASS BETS WIN, SHOOTER'S TURN IS OVER
 //
+// the dice roll button should not be clickable if the user has not placed a bet
+// if betValue <= 0, return
+// else if betValue > 0, rollButtonEl available
+//
+//
+//
+//
+//
 */
 /*---- VARIABLES ----*/
 let rollTotal = null;
@@ -143,3 +151,4 @@ function playCraps() {
    return true;
 
 };
+
