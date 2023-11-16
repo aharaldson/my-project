@@ -73,6 +73,7 @@ function newGame() {
    shooterData.bet = 0;
    shooterData.gameState = 'come'
    currentBetEl.innerText = "$" + shooterData.bet;
+   currentBankEl.innerHTML = '$' + shooterData.bank;
    console.log(`You have $ ${shooterData.bank} left`);
 };
 
@@ -82,6 +83,7 @@ function winner() {
    shooterData.bank = shooterData.bank + winnings;
    comeOutNumEl.innerText = shooterData.point;
    winLoseEl.innerHTML = '<h3>You won $' + winnings + '! <br>Place another bet to play again</h3>';
+   currentBankEl.innerHTML = '$' + shooterData.bank;
    newGame();
    return true;
 };
@@ -107,7 +109,7 @@ function betAddFive(evt) {
    shooterData.bank = shooterData.bank - betValue;
    currentBetEl.innerText = "$" + shooterData.bet;
    console.log('add $5');
-   currentBankEl.innertext = "$" + shooterData.bank;
+   currentBankEl.innerHTML = '$' + shooterData.bank;
    winLoseEl.innerHTML = '';
    return true;
 };
@@ -159,3 +161,4 @@ function playCraps() {
    return true;
 };
 
+onDomContentLoaded = (currentBankEl.innerHTML = '$' + shooterData.bank);
