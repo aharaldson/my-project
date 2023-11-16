@@ -23,13 +23,14 @@ font-family: 'REM', sans-serif;
     justify-content: center;
     align-items: center;
     background-color: #098700;
+    border-radius: 7px;
 }
 
 #passline-left {
     grid-row: auto / span 6;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red;
-    margin-bottom: -8px;
+    margin-bottom: -20px;
 }
 
 #dontcome {
@@ -113,7 +114,17 @@ font-family: 'REM', sans-serif;
     font-size: 30px;
 }
 
-#button {
-    height: 10%;
-    width: 20%;
+.button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #CF0300;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+#displaycurrentbank {
+    position: absolute;
+    left: 7vw;
+
 }

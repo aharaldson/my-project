@@ -57,6 +57,7 @@ const rollButtonEl = document.getElementById('rollbutton')
 const betAddFiveEl = document.getElementById('betaddfive')
 const currentBetEl = document.getElementById('currentbet')
 const comeOutNumEl = document.getElementById('comeoutnumber')
+const currentBankEl = document.getElementById('currentbank')
 const rollEl = document.getElementById('roll')
 const winLoseEl = document.getElementById('winlose')
 const playfieldEl = document.getElementById('playfield')
@@ -72,6 +73,7 @@ function newGame() {
    shooterData.bet = 0;
    shooterData.gameState = 'come'
    currentBetEl.innerText = "$" + shooterData.bet;
+   console.log(`You have $ ${shooterData.bank} left`);
 };
 
 function winner() {
@@ -105,6 +107,8 @@ function betAddFive(evt) {
    shooterData.bank = shooterData.bank - betValue;
    currentBetEl.innerText = "$" + shooterData.bet;
    console.log('add $5');
+   currentBankEl.innertext = "$" + shooterData.bank;
+   winLoseEl.innerHTML = '';
    return true;
 };
 
@@ -153,6 +157,5 @@ function playCraps() {
        } else {}
    }
    return true;
-
 };
 
