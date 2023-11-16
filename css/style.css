@@ -30,68 +30,56 @@ font-family: 'REM', sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red;
     margin-bottom: -8px;
-    gap
-    /* background-color: #ffad9f; */
 }
 
 #dontcome {
     grid-row: auto / span 3;
-    /* background-color: #9697ec; */
 }
 
 #four {
     grid-row: auto / span 2;
     color: #EDE500;
-    /* background-color: #e4ffb0; */
 }
 
 #five {
     grid-row: auto / span 2;
     color: #EDE500;
-    /* background-color: #ffc188; */
 }
 
 #six {
     grid-row: auto / span 2;
     color: #EDE500;
-    /* background-color: #6065b5; */
 }
 
 #eight {
     grid-row: auto / span 2;
     color: #EDE500;
-    /* background-color: #9cfad7; */
 }
 
 #nine {
     grid-row: auto / span 2;
     color: #EDE500;
-    /* background-color: #ebdc80; */
 }
 
 #ten {
     grid-row: auto / span 2;
     color: #EDE500;
-    /* background-color: #293780; */
 }
 
 #comebar {
     grid-column: auto / span 6;
     color: #CF0300;
     text-justify: auto;
-    /* background-color: #82e9f8; */
 }
 
 #field {
     grid-row: auto / span 2;
     grid-column: auto / span 7;
     color: #EDE500;
-    /* background-color: #bdf798; */
 }
 
 #dontpass {
     grid-column: auto / span 7;
-    /* background-color: #fff59c; */
 }
 
 #passline-bottom {
@@ -99,7 +87,6 @@ font-family: 'REM', sans-serif;
     grid-column: auto / span 8;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: red;
-    /* background-color: #ffad9f; */
 }
 
 #interact {
