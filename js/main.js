@@ -109,11 +109,15 @@ function betAddFive(evt) {
 };
 
 function rollDice(evt) {
+    if(shooterData.bet === 0) {
+        return;
+    };
     const dice1 = Math.floor((Math.random() * 6) + 1);
     const dice2 = Math.floor((Math.random() * 6) + 1);
     rollTotal = (dice1 + dice2);
     rollEl.innerText = rollTotal;
     console.log('dice rolled');
+    winLoseEl.innerHTML = '';
    playCraps();
 };
 

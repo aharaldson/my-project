@@ -98,9 +98,6 @@ font-family: 'REM', sans-serif;
     margin-top: 8px;
 }
 
-#winlose {
-
-}
 
 #interact > div {
     font-size: 16px;
@@ -110,4 +107,13 @@ font-family: 'REM', sans-serif;
 #displayrollbutton {
     margin: auto;
     padding: 8px;
+}
+
+#winlose {
+    font-size: 30px;
+}
+
+#button {
+    height: 10%;
+    width: 20%;
 }
