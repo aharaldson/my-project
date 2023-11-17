@@ -4,7 +4,7 @@
 
 #### (kind of)
 
-### What is craps?
+## What is craps?
 
 Craps is a dice game that originated in New Orleans in around 1805. 
 It is a derivative of "Krabs", itself a variation of the earlier dice game "hazard". 
@@ -24,7 +24,7 @@ If the shooter rolls a 7 before the point they set, pass line bets lose, don't p
 
 There are many other bets than can be made, but this version of the game focuses only on these "core" rules.
 
-### How to play
+## How to play
 
 The controls of this version game are very simple:
 - You will start with $100 in credit
@@ -38,11 +38,11 @@ The controls of this version game are very simple:
 - Doing so wins, and double the bet is added to your credits
 - Rolling 7 is the only way to lose once the point is set; 2, 3, & 12 are only "craps" on the come-out roll
 
-### Getting started
+## Getting started
 
 **[CLICK HERE](https://aharaldson.github.io/my-project/)** to play!
 
-### Gameplay examples
+## Gameplay examples
 
 ![shooter rolls a 7 on the come-out](/imgs/comeOut7.png)
 *Shooter rolls a 7 on the come-out and wins*
@@ -56,11 +56,11 @@ The controls of this version game are very simple:
 ![Shooter sevens out](/imgs/7out.png)
 *Point is set to 10, but the shooter sevens out*
 
-### How this game was made
+## How this game was made
 
 This basic, browser-based craps game was written in HTML, CSS, and Javascript
 
-### Next steps
+## Next steps
 
 - Fleshing out the ruleset to include more betting options
 - Fixing the "bank" (currently, players can have a negative credits balance, which most casinos frown upon)
