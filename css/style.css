@@ -7,7 +7,12 @@ font-family: 'Inknut Antiqua', serif;
 font-family: 'REM', sans-serif;
 }
 
-#playfield {
+img {
+    width: 100%;
+    height: auto;
+  }
+
+/* #playfield {
     display: grid;
     height: 800px;
     grid-template-columns: repeat(8, 4fr);
@@ -88,7 +93,7 @@ font-family: 'REM', sans-serif;
     grid-column: auto / span 8;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: red;
-}
+} */
 
 #interact {
     display: grid;
