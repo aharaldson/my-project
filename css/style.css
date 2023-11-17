@@ -1,99 +1,16 @@
 * {
-margin: 10;
-padding: 10;
-text-align: center;
-font-family: 'Eczar', serif;
-font-family: 'Inknut Antiqua', serif;
-font-family: 'REM', sans-serif;
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    font-family: 'Eczar', serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'REM', sans-serif;
 }
 
 img {
     width: 100%;
     height: auto;
   }
-
-/* #playfield {
-    display: grid;
-    height: 800px;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: 8;
-    gap: 8px;
-    color: #ffffff;
-    background-color: #ffffff;
-    font-size: 50px;
-}
-
-#playfield > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #098700;
-    border-radius: 7px;
-}
-
-#passline-left {
-    grid-row: auto / span 6;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: red;
-    margin-bottom: -20px;
-}
-
-#dontcome {
-    grid-row: auto / span 3;
-}
-
-#four {
-    grid-row: auto / span 2;
-    color: #EDE500;
-}
-
-#five {
-    grid-row: auto / span 2;
-    color: #EDE500;
-}
-
-#six {
-    grid-row: auto / span 2;
-    color: #EDE500;
-}
-
-#eight {
-    grid-row: auto / span 2;
-    color: #EDE500;
-}
-
-#nine {
-    grid-row: auto / span 2;
-    color: #EDE500;
-}
-
-#ten {
-    grid-row: auto / span 2;
-    color: #EDE500;
-}
-
-#comebar {
-    grid-column: auto / span 6;
-    color: #CF0300;
-    text-justify: auto;
-}
-
-#field {
-    grid-row: auto / span 2;
-    grid-column: auto / span 7;
-    color: #EDE500;
-}
-
-#dontpass {
-    grid-column: auto / span 7;
-}
-
-#passline-bottom {
-    grid-row: auto / span 2;
-    grid-column: auto / span 8;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: red;
-} */
 
 #interact {
     display: grid;
@@ -103,7 +20,6 @@ img {
     margin: auto;
     margin-top: 8px;
 }
-
 
 #interact > div {
     font-size: 16px;
